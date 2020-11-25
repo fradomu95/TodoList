@@ -1,7 +1,6 @@
 {
   "name": "PrimeraPracticaTypescript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "inquirer": "^7.3.3",
+    "lowdb": "^1.0.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "@types/lowdb": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fradomu95/TodoList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fradomu95/TodoList/issues"
+  },
+  "homepage": "https://github.com/fradomu95/TodoList#readme",
+  "description": ""
 }
